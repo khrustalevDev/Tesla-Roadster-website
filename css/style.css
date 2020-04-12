@@ -73,7 +73,7 @@
         margin-bottom: 25px;
     }
     
-    .header-content__btn {
+    .button {
         display: inline-block;
         font-weight: bold;
         background: rgba(255, 255, 255, 0.15);
@@ -82,7 +82,7 @@
         transition: all .5s;
     }
     
-    .header-content__btn:hover {
+    .button:hover {
         background: #770402cc;
     }
     
@@ -187,8 +187,6 @@
         width: 303px;
     }
     
-    .advantages__text ul {}
-    
     .advantages-descr {
         max-width: 570px;
         width: 100%;
@@ -207,6 +205,7 @@
     .design-row {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 100px;
     }
     
     .design-row__item {
@@ -222,5 +221,33 @@
     }
     
     .design-row__item-text {
-        max-width: 450px;
+        max-width: 430px;
+        padding-top: 25px;
+    }
+    
+    .footer {
+        background: #690102;
+        padding: 83px 0 20px;
+    }
+    
+    .footer-btn {
+        text-align: center;
+        margin-bottom: 83px;
+    }
+    
+    .footer-copy {
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .footer-copy li {
+        display: inline-block;
+        padding: 0 10px;
+        position: relative;
+    }
+    
+    .footer-copy li+li::before {
+        content: "|";
+        position: absolute;
+        left: -5px;
     }
