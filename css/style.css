@@ -235,6 +235,10 @@
         margin-bottom: 83px;
     }
     
+    .footer-btn .button:hover {
+        background: #000;
+    }
+    
     .footer-copy {
         text-align: center;
         font-weight: 700;
